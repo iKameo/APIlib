@@ -1,0 +1,22 @@
+{
+  "id": "apilib",
+  "title": "APIlib",
+  "version": "0.0.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "A library to use the foundryVTT API via http/s",
+  "authors": [
+    {
+      "name": "iKameo",
+      "url": "https://byteoverflow.de",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+      "apilib.js"
+  ],
+
+  "url": "https://github.com/ikameo/apilib"
+}

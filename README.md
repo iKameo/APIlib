@@ -32,7 +32,7 @@ Drop the __pulldata_style.php__ into your `www` directory and your good to go.
 Modify the apilib.js to point to your own website.
 ```
 function sendPlayerData(data) {
-  const url = 'https://beta.byteoverflow.de/foundry/pulldata_style.php'; // Replace with your PHP script URL
+  const url = 'https://example.de/foundry/pulldata_style.php'; // Replace with your PHP script URL
   fetch(url, {
     method: 'POST',
     headers: {
